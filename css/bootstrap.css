@@ -6745,15 +6745,22 @@ button.close {
   transform: translateY(-60%);
   font-size: 18px;
 }
+.crop{
+  /*width: 400px;*/
+  height: 400px;
+  overflow: hidden;
+}
+/*
 .circle-img {
   width: 400px;
   height: 400px;
-  max-width:50%%;
   overflow: hidden;
 }
-
+*/
 .circle-img img {
+  object-fit: cover;
   height: 100%;
+  width: auto;
   transform: translateX(-50%);
   margin-left: 50%;
 }
